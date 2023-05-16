@@ -18,17 +18,18 @@ public class Itinerario {
     private float longitud;
     private int maxVisitantes, numEspecies;
     private String nombre;
-    private ObjectId id;
+    private ObjectId id, guia;
     private List<Dias> dias;
     private Date horaInicio, horaFin;
     private List<Especie> especies;
 
-    public Itinerario(float longitud, int maxVisitantes, int numEspecies, String nombre, ObjectId id, List<Dias> dias, Date horaInicio, Date horaFin, List<Especie> especies) {
+    public Itinerario(float longitud, int maxVisitantes, int numEspecies, String nombre, ObjectId id, ObjectId guia, List<Dias> dias, Date horaInicio, Date horaFin, List<Especie> especies) {
         this.longitud = longitud;
         this.maxVisitantes = maxVisitantes;
         this.numEspecies = numEspecies;
         this.nombre = nombre;
         this.id = id;
+        this.guia = guia;
         this.dias = dias;
         this.horaInicio = horaInicio;
         this.horaFin = horaFin;
@@ -107,6 +108,15 @@ public class Itinerario {
         this.especies = especies;
     }
 
+    public ObjectId getGuia() {
+        return guia;
+    }
+
+    public void setGuia(ObjectId guia) {
+        this.guia = guia;
+    }
+
+    
     @Override
     public int hashCode() {
         int hash = 5;
