@@ -37,6 +37,11 @@ public class Especie {
         this.habitat = habitat;
         this.zona = zona;
     }
+
+    public Especie() {
+    }
+    
+    
     
     /**
      * Método que obtiene el habitat de la especie

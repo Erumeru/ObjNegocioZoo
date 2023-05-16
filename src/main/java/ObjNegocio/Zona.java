@@ -30,6 +30,10 @@ public class Zona {
         this.id = id;
     }
 
+    public Zona() {
+    }
+
+    
     /**
      * Método que obtiene la extension en metros de la zona 
      * @return extension de la zona

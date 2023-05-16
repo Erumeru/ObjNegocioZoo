@@ -25,6 +25,10 @@ public class Habitat {
         this.id = id;
     }
 
+    public Habitat() {
+    }
+
+    
     public String getNombre() {
         return nombre;
     }

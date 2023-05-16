@@ -35,6 +35,10 @@ public class Itinerario {
         this.horaFin = horaFin;
         this.especies = especies;
     }
+
+    public Itinerario() {
+    }
+    
     
     public float getLongitud() {
         return longitud;

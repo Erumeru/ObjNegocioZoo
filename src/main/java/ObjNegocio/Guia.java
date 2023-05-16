@@ -29,6 +29,11 @@ public class Guia {
         this.fechaInicio = fechaInicio;
     }
 
+    public Guia() {
+    }
+
+    
+    
     public String getTelefono() {
         return telefono;
     }
