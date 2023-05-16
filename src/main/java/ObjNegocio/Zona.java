@@ -17,17 +17,17 @@ public class Zona {
     private ObjectId id;
 
     public Zona(float longitud, String nombre, ObjectId id) {
-        this.longitud = longitud;
+        this.extension = longitud;
         this.nombre = nombre;
         this.id = id;
     }
 
     public float getLongitud() {
-        return longitud;
+        return extension;
     }
 
     public void setLongitud(float longitud) {
-        this.longitud = longitud;
+        this.extension = longitud;
     }
 
     public String getNombre() {
