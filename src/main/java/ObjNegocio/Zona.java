@@ -16,18 +16,18 @@ public class Zona {
     private String nombre;
     private ObjectId id;
 
-    public Zona(float longitud, String nombre, ObjectId id) {
-        this.extension = longitud;
+    public Zona(float extension, String nombre, ObjectId id) {
+        this.extension = extension;
         this.nombre = nombre;
         this.id = id;
     }
 
-    public float getLongitud() {
+    public float getExtension() {
         return extension;
     }
 
-    public void setLongitud(float longitud) {
-        this.extension = longitud;
+    public void setExtension(float extension) {
+        this.extension = extension;
     }
 
     public String getNombre() {
