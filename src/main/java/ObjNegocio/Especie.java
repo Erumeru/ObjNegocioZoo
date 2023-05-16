@@ -38,10 +38,29 @@ public class Especie {
         this.zona = zona;
     }
 
+    /**
+     * Constructor por omision de Especie
+     */
     public Especie() {
     }
-    
-    
+
+    /**
+     * Constructor de la clase Especie que recibe todos los atributos
+     * necesarios excepto id para inicializar un objeto Especie.
+     * @param nomCientifico Nombre científico que recibe la especie
+     * @param descripcion Descripcion de la especie
+     * @param nomEspanol Nombre en espaniol de la especie
+     * @param habitat Habitat en donde vive la especie
+     * @param zona Zona en donde se encuentra la especie en el zoologico
+     */
+    public Especie(String nomCientifico, String descripcion, String nomEspanol, ObjectId habitat, Zona zona) {
+        this.nomCientifico = nomCientifico;
+        this.descripcion = descripcion;
+        this.nomEspanol = nomEspanol;
+        this.habitat = habitat;
+        this.zona = zona;
+    }
+
     
     /**
      * Método que obtiene el habitat de la especie

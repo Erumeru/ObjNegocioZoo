@@ -8,7 +8,7 @@ import java.util.Objects;
 import org.bson.types.ObjectId;
 
 /**
- *
+ * Objeto de negocio que hace referencia a Zona
  * @author eruma
  */
 public class Zona {
@@ -51,40 +51,40 @@ public class Zona {
     }
 
     /**
-     * 
-     * @return 
+     * Método que obtiene el nombre de la zona
+     * @return nombre de la zona
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * 
-     * @param nombre 
+     * Método que asigna un nombre a la zona
+     * @param nombre nombre que recibira la zona
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * 
-     * @return 
+     * Método que obtiene el identificador de la zona
+     * @return Identificador que tiene la zona
      */
     public ObjectId getId() {
         return id;
     }
 
     /**
-     * 
-     * @param id 
+     * Método que asigna un identificador a una zona
+     * @param id identificador de zona
      */
     public void setId(ObjectId id) {
         this.id = id;
     }
 
     /**
-     * 
-     * @return 
+     * Calcula y devuelve el valor hash de la zona
+     * @return valor hash del objeto Zona
      */
     @Override
     public int hashCode() {
@@ -94,9 +94,9 @@ public class Zona {
     }
 
     /**
-     * Método 
-     * @param obj
-     * @return 
+     * Compara el objeto Zona con otro objeto para saber si son iguales
+     * @param obj objeto a comparar
+     * @return true si los objetos son iguales, false en caso contrario.
      */
     @Override
     public boolean equals(Object obj) {
