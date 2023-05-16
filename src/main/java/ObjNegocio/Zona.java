@@ -29,7 +29,20 @@ public class Zona {
         this.nombre = nombre;
         this.id = id;
     }
-
+    
+    /**
+     * Constructor de la clase Zona que recibe todos los atributos
+     * necesarios para inicializar un objeto Zona.
+     * @param extension longitud en metros de la zona
+     * @param nombre nombre de la zona en cuestion
+     */
+    public Zona(float extension, String nombre) {
+        this.extension = extension;
+        this.nombre = nombre;
+    }
+    /**
+     * Constructor por omision
+     */
     public Zona() {
     }
 
