@@ -4,6 +4,8 @@
  */
 package ObjNegocio;
 
+import java.util.List;
+import java.util.Objects;
 import org.bson.types.ObjectId;
 
 /**
@@ -11,10 +13,11 @@ import org.bson.types.ObjectId;
  * @author eruma
  */
 public class Habitat {
-    private String nombre, clima, vegetacion, continentes[];
+    private String nombre, clima, vegetacion;
+    private List<String> continentes;
     private ObjectId id;
 
-    public Habitat(String nombre, String clima, String vegetacion, String[] continentes, ObjectId id) {
+    public Habitat(String nombre, String clima, String vegetacion, List<String> continentes, ObjectId id) {
         this.nombre = nombre;
         this.clima = clima;
         this.vegetacion = vegetacion;
@@ -46,20 +49,42 @@ public class Habitat {
         this.vegetacion = vegetacion;
     }
 
-    public String[] getContinentes() {
+    public List<String> getContinentes() {
         return continentes;
     }
 
-    public void setContinentes(String[] continentes) {
+    public void setContinentes(List<String> continentes) {
         this.continentes = continentes;
     }
-
+    
     public ObjectId getId() {
         return id;
     }
 
     public void setId(ObjectId id) {
         this.id = id;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 53 * hash + Objects.hashCode(this.id);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Habitat other = (Habitat) obj;
+        return Objects.equals(this.id, other.id);
     }
     
     

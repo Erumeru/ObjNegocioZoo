@@ -5,6 +5,8 @@
 package ObjNegocio;
 
 import java.util.Date;
+import java.util.List;
+import java.util.Objects;
 import org.bson.types.ObjectId;
 
 /**
@@ -14,9 +16,10 @@ import org.bson.types.ObjectId;
 public class Guia {
     private String telefono, calle, colonia, numDireccion, nombre, apellidoPat, apellidoMat;
     private Date fechaInicio;
+    private List<Itinerario> itinerarios;
     private ObjectId id;
 
-    public Guia(String telefono, String calle, String colonia, String numDireccion, String nombre, String apellidoPat, String apellidoMat, Date fechaInicio, ObjectId id) {
+    public Guia(String telefono, String calle, String colonia, String numDireccion, String nombre, String apellidoPat, String apellidoMat, Date fechaInicio, List<Itinerario> itinerarios) {
         this.telefono = telefono;
         this.calle = calle;
         this.colonia = colonia;
@@ -25,7 +28,7 @@ public class Guia {
         this.apellidoPat = apellidoPat;
         this.apellidoMat = apellidoMat;
         this.fechaInicio = fechaInicio;
-        this.id = id;
+        this.itinerarios = itinerarios;
     }
 
     public String getTelefono() {
@@ -98,6 +101,41 @@ public class Guia {
 
     public void setId(ObjectId id) {
         this.id = id;
+    }
+
+    public List<Itinerario> getItinerarios() {
+        return itinerarios;
+    }
+
+    public void setItinerarios(List<Itinerario> itinerarios) {
+        this.itinerarios = itinerarios;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 17 * hash + Objects.hashCode(this.id);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Guia other = (Guia) obj;
+        return Objects.equals(this.id, other.id);
+    }
+
+    @Override
+    public String toString() {
+        return "Guia{" + "telefono=" + telefono + ", calle=" + calle + ", colonia=" + colonia + ", numDireccion=" + numDireccion + ", nombre=" + nombre + ", apellidoPat=" + apellidoPat + ", apellidoMat=" + apellidoMat + ", fechaInicio=" + fechaInicio + ", itinerarios=" + itinerarios + ", id=" + id + '}';
     }
     
     
