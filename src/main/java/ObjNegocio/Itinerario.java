@@ -256,7 +256,7 @@ public class Itinerario {
 
     /**
      * Compara el objeto Itinerario con otro objeto para saber si son iguales
-     * @param objel objeto a comparar
+     * @param obj objeto a comparar
      * @return true si los objetos son iguales, false en caso contrario.
      */
     @Override

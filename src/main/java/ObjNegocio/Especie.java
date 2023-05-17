@@ -171,7 +171,7 @@ public class Especie {
 
     /**
      * Compara el objeto Especie con otro objeto para saber si son iguales
-     * @param objel objeto a comparar
+     * @param obj objeto a comparar
      * @return true si los objetos son iguales, false en caso contrario.
      */
     @Override

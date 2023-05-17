@@ -1,0 +1,49 @@
+@options
+@packages
+-classpath
+'C:/Users/JORGE/.m2/repository/org/mongodb/mongodb-driver/3.10.2/mongodb-driver-3.10.2.jar;C:/Users/JORGE/.m2/repository/org/mongodb/bson/3.10.2/bson-3.10.2.jar;C:/Users/JORGE/.m2/repository/org/mongodb/mongodb-driver-core/3.10.2/mongodb-driver-core-3.10.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/JORGE/Documents/GitHub/ObjNegocioZoo/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/JORGE/Documents/GitHub/ObjNegocioZoo/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ObjNegocioZoo 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'ObjNegocioZoo 1.0-SNAPSHOT API'
+ObjNegocio
+C:\Users\JORGE\.m2\repository\org\mongodb\mongodb-driver\3.10.2\mongodb-driver-3.10.2.jar = 1684218000692
+C:\Users\JORGE\.m2\repository\org\mongodb\bson\3.10.2\bson-3.10.2.jar = 1684218012824
+C:\Users\JORGE\.m2\repository\org\mongodb\mongodb-driver-core\3.10.2\mongodb-driver-core-3.10.2.jar = 1684218038634
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\src\main\java = 1684219394235
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\allclasses-index.html = 1684281709986
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\allpackages-index.html = 1684281709988
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\copy.svg = 1684281710033
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\element-list = 1684281709911
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\help-doc.html = 1684281710027
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\index-all.html = 1684281710021
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\index.html = 1684281710023
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\javadoc.bat = 1684281509063
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\jquery-ui.overrides.css = 1684281710058
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\member-search-index.js = 1684281709994
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\module-search-index.js = 1684281709990
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\overview-tree.html = 1684281709964
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\package-search-index.js = 1684281709991
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\script.js = 1684281710031
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\search.js = 1684281710034
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\stylesheet.css = 1684281710030
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\tag-search-index.js = 1684281709995
+C:\Users\JORGE\Documents\GitHub\ObjNegocioZoo\target\site\apidocs\type-search-index.js = 1684281709992
