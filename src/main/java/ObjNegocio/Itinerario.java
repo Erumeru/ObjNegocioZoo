@@ -25,6 +25,19 @@ public class Itinerario {
     private List<Especie> especies;
 
     /**
+     * Constructor de la clase Itinerario que recibe los atributos maxVisitantes, numEspecies y el nombre
+     * @param maxVisitantes entero que representa el Max de visitantes
+     * @param numEspecies entero que represetna el Num de especies
+     * @param nombre nombre del itinerario
+     */
+    public Itinerario(int maxVisitantes, int numEspecies, String nombre) {
+        this.maxVisitantes = maxVisitantes;
+        this.numEspecies = numEspecies;
+        this.nombre = nombre;
+    }
+
+    
+    /**
      * Constructor de la clase Itinerario que recibe todos los atributos
      * necesarios para inicializar un objeto Itinerario.
      * @param longitud longitud que se recorrerá 
